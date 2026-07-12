@@ -47,3 +47,17 @@ A framework for systematically optimizing computationally intensive Python workl
 - Cython
 - pybind11
 - matplotlib (for visualizations)
+
+### Installation
+```bash
+git clone https://github.com/your-username/performance-lab.git
+cd performance-lab
+pip install -r requirements.txt
+```
+
+### Run Benchmarks
+python benchmarks/run_all.py
+
+### Profile a Script
+python -m cProfile -o profiling/output.prof benchmarks/example.py
+
