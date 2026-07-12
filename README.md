@@ -1,2 +1,39 @@
-# Performance_lab
-The Python Performance Engineering Lab is a framework designed to systematically optimize computationally intensive Python workloads while preserving algorithmic correctness. It provides a structured environment to experiment with multiple optimization strategies, profile applications, and generate reproducible performance benchmarks.
+# Python Performance Engineering Lab
+
+A framework for systematically optimizing computationally intensive Python workloads while preserving algorithmic correctness. This lab explores and benchmarks multiple performance engineering techniques across diverse workloads, providing reproducible results and actionable insights.
+
+---
+
+## 📌 Objectives
+- Identify CPU and memory bottlenecks in Python applications.
+- Apply optimization techniques without altering algorithmic correctness.
+- Benchmark execution time, memory consumption, CPU utilization, and scalability.
+- Compare trade-offs between implementation complexity and performance gains.
+- Automate benchmarking and generate reproducible performance reports.
+
+---
+
+## 🚀 Optimization Techniques
+- **NumPy Vectorization** – Efficient array operations.
+- **Numba JIT Compilation** – Accelerated Python functions.
+- **Multiprocessing** – Parallel execution across cores.
+- **Cython** – Compiled Python for speed.
+- **C++ Extensions (pybind11)** – Native performance integration.
+
+---
+
+## 🛠 Profiling Tools
+- `cProfile` – Function-level profiling.
+- `line_profiler` – Line-by-line execution analysis.
+- Memory profilers – Track memory allocation and leaks.
+
+---
+
+## 📊 Benchmarking & Reporting
+- Automated benchmarking scripts.
+- Comparative runtime and memory usage reports.
+- Visualizations for performance-driven decision making.
+
+---
+
+## 📂 Project Structure
