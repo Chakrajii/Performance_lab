@@ -37,3 +37,13 @@ A framework for systematically optimizing computationally intensive Python workl
 ---
 
 ## 📂 Project Structure
+
+## ⚡ Getting Started
+
+### Prerequisites
+- Python 3.9+
+- NumPy
+- Numba
+- Cython
+- pybind11
+- matplotlib (for visualizations)
