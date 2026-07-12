@@ -1,0 +1,8 @@
+numpy
+numba
+cython
+pybind11
+memory_profiler
+matplotlib
+pytest-benchmark
+psutil
